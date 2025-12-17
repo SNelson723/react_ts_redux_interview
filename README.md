@@ -29,15 +29,14 @@
 interface Task {
   id: string;
   title: string;
-  description?: string;
+  description: string;
   completed: boolean;
-  createdAt: string;
 }
 
 // POST/PUT body
 {
   title: string;
-  description?: string;
+  description: string;
   completed: boolean;
 }
 
